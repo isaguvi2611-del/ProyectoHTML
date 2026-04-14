@@ -1,3 +1,123 @@
 body{
-    background-color: antiquewhite;
+    background-color: #f5f5dc;
+}
+#nav{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+
+    background-color: #fdbfca;
+    padding: 15px 70px;
+    border-radius: 40px;
+}
+#logo{
+    width: 130px;
+    margin: 0px 20px;
+}
+section{
+    margin: 50px 10px ;
+}
+
+#menu{
+    display: flex;
+    gap: 70px; 
+    font-size: 10px;
+    color: #45151b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#menu p{
+    margin: 0;
+    font-weight: bold;
+    color: #4b1f1f;
+}
+
+#carrusel{
+    width: 1500px;
+    overflow: hidden;
+}
+#imagenes{
+    display: flex;
+    width: 900%;
+    animation: deslizar 50s linear infinite;
+}
+#imagenes img{
+    height: 500px;
+    width: 1000px;
+    border-radius: 20px;
+    margin: 0px 40px;
+    gap: 30px;
+}
+#imagenes img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+@keyframes deslizar {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+#animalitostitulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 130px;
+    font-size: 100px;
+    color: #45151b;
+    justify-self: center;
+}
+#section{
+    display: flex;
+    gap: 20px;
+}
+#section div:hover{
+    transform: scale(1.1);
+    transition: 0,5s;
+}
+#perro{
+    background-color: #F99256;
+    color: #C74E51;
+}
+#gato{
+    background-color: #1F2A44;
+    color: #FBDE9C;
+}
+#ave{
+    background-color: #45151B;
+    color: #FDBFCA;
+}
+#conejo{
+    background-color: #C74E51;
+    color: #F99256;
+}
+#conejo, #hamster, #ave, #gato, #perro{
+    width: 300px;
+    height: 250px;
+    border-radius: 50px;
+    position: relative;
+    text-align: center;
+}
+#hamster{
+    background-color: #FDBFCA;
+    color: #45151B;
+}
+#avesita, #perrito, #gatito, #hamstersito, #conejito{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: white;
+    padding: 10px;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid #ececec;
+}
+h2{
+    margin: 150px 20px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
