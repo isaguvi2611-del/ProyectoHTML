@@ -57,20 +57,40 @@ section{
     0% {
         transform: translateX(0);
     }
+    50%{
+        transform: translateX(-50%) ;
+    }
     100% {
-        transform: translateX(-50%);
+        transform: translateX(-100%);
     }
 }
-#animalitostitulo{
+button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#conocer{
+    position: relative;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100px;
+    width: 320px;
+    background-color: #45151b;
+    border-radius: 30px;
+    color: #f5f5dc;
+    font-size: 20px;
+
+}#animalitostitulo{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 130px;
-    font-size: 100px;
+    margin: 110px;
+    font-size: 80px;
     color: #45151b;
     justify-self: center;
 }
 #section{
     display: flex;
     gap: 20px;
+    margin: 10px 0px 230px;
 }
 #section div:hover{
     transform: scale(1.1);
@@ -79,6 +99,7 @@ section{
 #perro{
     background-color: #F99256;
     color: #C74E51;
+    text-decoration: none;
 }
 #gato{
     background-color: #1F2A44;
@@ -91,6 +112,7 @@ section{
 #conejo{
     background-color: #C74E51;
     color: #F99256;
+    text-decoration: none;
 }
 #conejo, #hamster, #ave, #gato, #perro{
     width: 300px;
@@ -120,4 +142,73 @@ h2{
     font-weight: bold;
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#slogan{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/Ellos\ te\ estan\ esperando\ \(3\).png);
+    height: 600px;
+    width: 1200px;
+    border-radius: 30px;
+    margin: 150px auto;
+}
+#conejee{
+    height: 300px;
+    padding: 200px 0px;
+}
+
+#adop{
+    display: flex;
+    height: 340px ;
+    width: 100px;
+
+}
+#part{
+    margin: ;
+    padding: 30px;
+    width: 1800%;
+    animation: cambiar 15s linear infinite;
+    background-color: #dda584;
+}
+@keyframes cambiar {
+    0% {
+        transform: translateX(-200%);
+    }
+    30%{
+        transform: translateX(-400%) ;
+    }
+    50% {
+        transform: translateX(-600%);
+    }
+    80%{
+        transform: translateX(-800%);
+    }
+    100%{
+        transform: translateX(-1000%);
+    }
+
+}
+#part img{
+    height: 240px;
+    width: 220px;
+    border-color: #45151b;
+    border-radius: 20px;
+    
+}
+#part img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+h3{
+    background-color: #d17274;
+    border-radius: 30px;
+    text-align: center;
+    color: #45151b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#limi{
+    margin: 150px 10px ;
+    overflow: hidden;
+    height: 540px;
 }
