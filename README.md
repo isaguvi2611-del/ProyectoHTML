@@ -1,52 +1,168 @@
-👨‍💻 Portfolio - Danna Sofia Téllez
+# 🐾 Happy Paws – Proyecto Web
 
-¡Hola! Soy Danna, una desarrolladora en formación apasionado por la tecnología, el aprendizaje constante y la creación de soluciones digitales. Este repositorio contiene mi portfolio personal, donde muestro mis proyectos, habilidades y crecimiento en el mundo del desarrollo.
+## 📌 Descripción
 
-🚀 Sobre mí
+*Happy Paws* es una maqueta web estática desarrollada con HTML y CSS nativo, cuyo objetivo es visibilizar el trabajo de una fundación dedicada al rescate, cuidado y adopción de animales en situación de abandono.
 
-Soy una persona enfocada en mejorar cada día mis habilidades en desarrollo web. Actualmente estoy aprendiendo y practicando tecnologías como HTML, CSS, Git y Python. Me interesa construir proyectos funcionales y seguir creciendo como desarrollador junior.
+La página busca transmitir empatía, confianza y motivar a los usuarios a *adoptar en lugar de comprar*, así como fomentar la participación mediante donaciones y voluntariado.
 
-🛠️ Tecnologías y herramientas
-💻 HTML5,
-🎨 CSS3,
-🐍 Python (básico),
-🔧 Git & GitHub,
-📦 VS Code,
-📂 Proyectos.
+---
 
-Aquí encontrarás algunos de los proyectos que he desarrollado:
+## 🎯 Objetivos del Proyecto
 
-🔹 Proyecto 1
-- Surge como una solución a un problema frecuente en comunidades: la falta de control en el préstamo de herramientas entre vecinos, lo que puede generar pérdidas, retrasos en las devoluciones y dificultad para identificar quién tiene cada objeto en un momento determinado.
-- Python
-  
-🔹 Proyecto 2
-- Esta app permite por medio de la permanencia de datos en json guardar la gestion de herramientas
-- Python
+* Dar a conocer la misión y visión de la fundación
+* Mostrar animales disponibles para adopción
+* Facilitar el contacto con la organización
+* Incentivar la adopción responsable
+* Simular interacciones usando únicamente CSS (sin JavaScript)
 
-(Puedes agregar más proyectos según tengas)
+---
 
-📈 Objetivos
-Mejorar mis habilidades en desarrollo frontend
-Aprender JavaScript y frameworks modernos
-Participar en proyectos colaborativos
-Conseguir mi primera oportunidad laboral en tecnología
+## 🧩 Estructura del Sitio
 
-🧠 Habilidades
+### 🏠 Página de Inicio (Home)
 
-Hard Skills:
-Maquetación web básica
-Uso de Git y control de versiones
-Estructuración de páginas web
+* *Header:* navegación principal
+* *Banner (Hero):*
 
-Soft Skills:
-Trabajo en equipo
-Responsabilidad
-Aprendizaje autónomo
-Adaptabilidad
+  * Nombre: Happy Paws
+  * Slogan: “Rescatamos vidas, creamos familias”
+  * Botón CTA (Adoptar / Conócenos)
+* *Carrusel automático (CSS):*
 
-📫 Contacto
-📧 Email: [ykuremysun@gmail.com]
-🐙 GitHub: [@sunisonfire]
+  * Imágenes de animales y actividades
+  * Animación con @keyframes
+* *Sección “Qué hacemos”:*
 
-⭐: link figma="https://www.figma.com/design/jMJffEB2N581LCKN42xKMV/PORTFOLIO?node-id=23-3&t=4lepUFLqQOnG5P9O-1"
+  * Rescate
+  * Rehabilitación
+  * Adopción
+* *Accesos rápidos:*
+
+  * Adoptar
+  * Donar
+  * Voluntariado
+  * Contacto
+* *Testimonios:*
+
+  * Adopción
+  * Donaciones
+  * Voluntariado
+* *Misión y Visión*
+* *Galería de imágenes*
+* *Footer*
+
+---
+
+## 🐶 Sección de Adopción
+
+Incluye un catálogo en formato grid con tarjetas de animales:
+
+### Cada tarjeta contiene:
+
+* Imagen
+* Nombre
+* Edad aproximada
+* Tamaño / raza
+* Estado (Disponible / Adoptado)
+* Botón: Ver perfil
+
+---
+
+## 📄 Perfil de Animal
+
+Cada mascota cuenta con una vista detallada:
+
+### Información incluida:
+
+* Historia (rescate o procedencia)
+* Estado de salud
+* Comportamiento
+* Características:
+
+  * Edad
+  * Sexo
+  * Tamaño
+* Botón: Solicitar adopción (no funcional)
+
+---
+
+## 📩 Formulario de Contacto
+
+Campos incluidos:
+
+* Nombre
+* Apellidos
+* Ciudad
+* Correo electrónico
+* Teléfono
+* Tipo de consulta:
+
+  * Adopción
+  * Donación
+  * Voluntariado
+  * General
+* Mensaje
+
+### Validación:
+
+* Simulada con CSS (:placeholder-shown, clases .error y .success)
+* Sin uso de JavaScript
+
+---
+
+## 🎨 Diseño y Estilo
+
+* Diseño *responsive*
+* Uso de *Flexbox y Grid*
+* Carruseles creados con *CSS (@keyframes)*
+* Uso de overlays con rgba para mejorar legibilidad
+* Estética cálida y amigable (colores suaves, tonos tierra y rojizos)
+
+---
+
+## ⭐ Funcionalidades Clave (CSS puro)
+
+* Carruseles automáticos
+* Animaciones con @keyframes
+* Efectos hover (ej: testimonios dinámicos)
+* Simulación de validaciones en formularios
+
+---
+
+## 💛 Identidad de Marca
+
+### Misión
+
+Rescatar, cuidar y rehabilitar animales en situación de abandono, brindándoles una segunda oportunidad mediante la adopción responsable.
+
+### Visión
+
+Crear una sociedad más consciente donde todos los animales tengan un hogar digno y lleno de amor.
+
+### ¿Quiénes somos?
+
+Happy Paws es una fundación comprometida con el bienestar animal, formada por personas que trabajan día a día para rescatar, proteger y encontrar hogares responsables para animales vulnerables.
+
+---
+
+## 🐾 Mensaje de Impacto
+
+> Adoptar es elegir cambiar una vida para siempre: mientras comprar alimenta un ciclo de abandono, abrir tu hogar a un animal rescatado significa darle una segunda oportunidad y recibir amor incondicional.
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+* HTML5
+* CSS3 (sin JavaScript)
+
+---
+
+## 📌 Notas Finales
+
+Este proyecto es una *maqueta estática*, enfocada en diseño, estructura y experiencia de usuario, cumpliendo con los requerimientos académicos establecidos.
+
+---
+
+✨ Happy Paws – Donde cada patita encuentra amor.
