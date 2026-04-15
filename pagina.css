@@ -2,9 +2,9 @@ body{
     background-color: #f5f5dc;
 }
 .sekuya-regular {
-  font-family: "Sekuya", system-ui;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #nav{
@@ -32,11 +32,12 @@ section{
     color: #45151b;
     font-family:sekuya;
 }
-
-#menu p{
+#menu a h1{
     color: inherit;
-    color: white;
+    color: #45151B;
     text-decoration: none;
+}
+#menu p{
     margin: 0;
     font-weight: bold;
     color: #4b1f1f;
@@ -84,18 +85,28 @@ section{
     width: 320px;
     background-color: #45151b;
     border-radius: 30px;
-    color: #f5f5dc;
+    border-color: #f5f5dc;
+    color: transparent;
     font-size: 15px;
     font-family: "Sekuya";
+    -webkit-text-stroke: 1px #f5f5dc
 }
-
+#conocer:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    transform: translateX(50%);
+    background-color: #f5f5dc;
+    color: #45151b;
+    
+}
 
 #animalitostitulo{
     font-family: "Sekuya";
     margin: 110px;
     font-size: 80px;
-    color: #45151b;
+    color: transparent;
     justify-self: center;
+    -webkit-text-stroke: 1px #45151B
 }
 #section{
     display: flex;
@@ -175,6 +186,10 @@ h2{
     width: 100px;
 
 }
+#part img:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
 #part{
     border-radius: 20px;
     gap: 30px;
@@ -233,17 +248,25 @@ h3{
 #titulomasc{
     background-color: #C74E51;
     color: #F6C0A0;
+    padding-top: 0%;
     border-radius: 20px;
     margin: 10px ;
     text-align: center;
-    font-size: 80px ;
+    font-size: 70px ;
     font-family: "Sekuya";
+}
+#titulomasc:hover{
+    transform: scale(1.1);
+    transform: 0.5s;
+    background-color: #F6C0A0;
+    color: #C74E51;
 }
 #testimonio{
     text-align: center;
     font-size: 60px;
-    color: #C74E51;
+    color: transparent;
     font-family: "Sekuya";
+    -webkit-text-stroke: 1px #45151B;
 }
 
 #rojito{
@@ -252,8 +275,20 @@ h3{
     border-radius: 20px;
     background-color: #F99256;
 }
-h6{
+#sofia{
     color:#C74E51;
+    margin: 60px 0px 0px 30px;
+    font-size: 35px;
+    font-family: "Sekuya";
+}
+#laura{
+    color:#45151B;
+    margin: 60px 0px 0px 30px;
+    font-size: 35px;
+    font-family: "Sekuya";
+}
+#camila{
+    color:#1f3a5f;
     margin: 60px 0px 0px 30px;
     font-size: 35px;
     font-family: "Sekuya";
@@ -292,4 +327,42 @@ h6{
     font-size: 18px;
     padding: 5px 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.footer {
+    background-color: #1f3a5f;
+    /* puedes cambiar al color de tu paleta */
+    color: white;
+    padding: 30px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#l9{
+    background-color: #f4a261;
+    color: #1f3a5f;
+    font-family: "Sekuya";
+    font-size: 30px;
+}
+.footer-item {
+    flex: 1;
+    margin: 0px 30px 0px 20px;
+    min-width: 200px;
+}
+
+.footer-item h3 {
+    margin-bottom: 10px;
+}
+
+.footer-item a {
+    color: #ececec;
+    text-decoration: none;
+}
+
+.footer-item a:hover {
+    text-decoration: underline;
 }
