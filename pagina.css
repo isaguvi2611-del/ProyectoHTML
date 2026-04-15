@@ -368,7 +368,6 @@ h3{
     text-decoration: underline;
 }
 
-/* Estilos para pantallas pequeñas (móviles) */
 @media (max-width: 768px) {
     #nav {
         flex-direction: column;
@@ -417,7 +416,7 @@ h3{
     }
 }
 
-/* Estilos para pantallas medianas/grandes (tablets y PCs) */
+
 @media (min-width: 769px) {
     #nav {
         flex-direction: row;
@@ -438,23 +437,22 @@ h3{
         justify-content: space-around;
     }
 }
-/* Estilos para pantallas grandes (≥1400px) */
 @media (min-width: 1400px) {
     body {
-        font-size: 20px; /* texto más grande */
+        font-size: 20px; 
     }
 
     #nav {
-        padding: 20px 80px; /* más espacio en el menú */
+        padding: 20px 80px; 
     }
 
     #menu {
-        gap: 80px; /* separa más los enlaces */
+        gap: 80px;
         font-size: 18px;
     }
 
     #carrusel {
-        width: 85%; /* que no quede fijo en 1500px */
+        width: 85%; 
         margin: auto;
     }
 

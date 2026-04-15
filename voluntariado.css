@@ -80,7 +80,7 @@ body{
 #cutie1 img{
     width: 100%;
     height: 100%;
-    object-fit: cover; /* llena todo sin dejar fondo */
+    object-fit: cover;
     display: block;
 }
 #cutie2{
@@ -136,4 +136,61 @@ body{
     -webkit-text-stroke: 1px #1b2640;
     color: #e9cdb4;
     font-family: "Sekuya";
+}
+
+@media (max-width: 768px) {
+    #il {
+        flex-direction: column;
+        margin: 50px 20px;
+    }
+
+    #par {
+        height: auto;
+        width: 100%;
+        margin: 0;
+    }
+
+    #por {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    #volun {
+        font-size: 40px;
+    }
+
+    #rude {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 10%;
+    }
+
+    #rude img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 1400px) {
+    #il {
+        margin: 200px 100px;
+    }
+
+    #por {
+        padding: 60px 120px;
+        font-size: 24px;
+    }
+
+    #volun {
+        font-size: 80px;
+    }
+
+    #rude {
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0 20%;
+    }
+
+    #rude img {
+        height: 250px;
+        width: 250px;
+    }
 }

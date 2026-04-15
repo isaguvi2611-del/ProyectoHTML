@@ -11,14 +11,14 @@
         .caja {
             width: 350px;
             padding: 20px;
-            background-color: rgba(0, 0, 0, 0.6); /* Transparencia */
+            background-color: rgba(0, 0, 0, 0.6);
             color: white;
             border-radius: 10px;
 
             position: absolute;
-            top: 20px; /* Arriba */
+            top: 20px; 
             left: 50%;
-            transform: translateX(-50%); /* Centrado horizontal */
+            transform: translateX(-50%);
         }
 
         .caja form {

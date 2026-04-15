@@ -72,8 +72,8 @@ input {
 }
 
 button {
-    background: #5b0010;
-    color: e9cdb4;
+    background: #e4e4e4;
+    color: #e9cdb4;
     padding: 10px;
     border: none;
     cursor: pointer;
@@ -97,7 +97,7 @@ button {
 }
 #navegar {
     margin: 30px;
-    background-color: #e7a8b0;
+    background-color: #41181d;
     padding: 30px;
     text-align: center;
     margin-bottom: 20px;
@@ -110,4 +110,68 @@ button {
     width: 100%;
     height: 50px;
     border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .hoja {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin: 20px 10px;
+    }
+
+    input, button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .maquina {
+        width: 95%;
+        height: auto;
+    }
+
+    #navegar {
+        flex-direction: column;
+        padding: 10px 20px;
+        margin: 10px;
+    }
+
+    #navegar img {
+        height: 40px;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .hoja {
+        width: 600px;
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin: 40px 20px;
+    }
+
+    input, button {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    .maquina {
+        width: 650px;
+        height: 150px;
+    }
+
+    #navegar {
+        padding: 20px 100px;
+        margin: 50px;
+    }
+
+    #navegar img {
+        height: 60px;
+    }
 }
