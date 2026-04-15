@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    
     background: #dcdcdc;
     font-family: "Segoe UI", sans-serif;
 }
@@ -52,12 +53,14 @@ input {
     padding: 10px;
     border: none;
     margin-top: 5px;
+    border-radius: 20px;
     background: #f3a7b5;
     color: e9cdb4;
     outline: none;
 }
 
 .telefono {
+    border-radius: 20px;
     background: #f3d08a;
     color: black;
 }
@@ -79,15 +82,32 @@ button {
 .bottom {
     margin-top: 20px;
     font-size: 12px;
-    border-top: 1px dashed black;
+    border-top: 1px dashed #dcdcdc;
     padding-top: 10px;
 }
 
 .maquina {
+    border-radius: 20px;
     width: 420px;
     height: 120px;
     background: #a11;
     margin-top: -30px;
     border-radius: 10px;
-    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 5px 10px rgba(255, 255, 255, 0.3);
+}
+#navegar {
+    margin: 30px;
+    background-color: #e7a8b0;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 15px 60px;
+    border-radius: 40px;
+}
+
+#navegar img {
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
 }
