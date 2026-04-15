@@ -367,3 +367,121 @@ h3{
 .footer-item a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    #nav {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    #menu {
+        flex-direction: column;
+        gap: 20px;
+        font-size: 14px;
+    }
+
+    #carrusel {
+        width: 100%;
+    }
+
+    #imagenes img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    #section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section div {
+        width: 90%;
+        height: auto;
+    }
+
+    #slogan {
+        width: 95%;
+        height: auto;
+    }
+
+    #ik {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 769px) {
+    #nav {
+        flex-direction: row;
+    }
+
+    #menu {
+        flex-direction: row;
+        gap: 60px;
+    }
+
+    #section {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #ik {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+@media (min-width: 1400px) {
+    body {
+        font-size: 20px; 
+    }
+
+    #nav {
+        padding: 20px 80px; 
+    }
+
+    #menu {
+        gap: 80px;
+        font-size: 18px;
+    }
+
+    #carrusel {
+        width: 85%; 
+        margin: auto;
+    }
+
+    #imagenes img {
+        width: 100%;
+        height: auto;
+    }
+
+    #section {
+        justify-content: center;
+        gap: 40px;
+    }
+
+    #section div {
+        width: 350px;
+        height: 300px;
+    }
+
+    #slogan {
+        width: 75%;
+        height: 700px;
+    }
+
+    #ik {
+        gap: 40px;
+    }
+
+    .footer-container {
+        justify-content: space-around;
+        font-size: 18px;
+    }
+}

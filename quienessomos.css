@@ -3,22 +3,7 @@ body{
     background:#f7e8df;
     font-family: 'Sekuya', serif;
 }
-#navegar {
-  margin: 20px;
-    background-color: #e7a8b0;
-    padding: 30px;
-    text-align: center;
-    margin-bottom: 20px;
-    display: flex;
-    padding: 15px 60px;
-    border-radius: 40px;
-}
 
-#navegar img {
-    width: 100%;
-    height: 50px;
-    border-radius: 20px;
-}
 .container{
     width:900px;
     margin:auto;
@@ -29,7 +14,6 @@ body{
     background:#d45a5a;
     border-radius:0 0 60px 60px;
     padding:20px;
-    margin: 50px 90px;
 }
 
 .title{
@@ -51,17 +35,6 @@ body{
 }
 
 .formado{
-  margin: 0px 0px 30px 40px;
-    background:#f7d7c7;
-    border-radius:40px;
-    padding:20px;
-    font-size:15px;
-    font-weight:800;
-    line-height:1.5;
-    color:#4d1e1e;
-}
-.formado1{
-    margin: 50px 0px 0px 40px;
     background:#f7d7c7;
     border-radius:40px;
     padding:20px;
@@ -72,19 +45,14 @@ body{
 }
 
 .photo-frame{
-  margin: 0px 0px 0px 70px;
     background:#f5cdb8;
-    padding: 12px;
-    height: 480px;
-    width: 480px;
+    padding:12px;
     transform:rotate(-8deg);
 }
 
 .photo-frame img{
     width:100%;
     display:block;
-    height: 480px;
-    width: 480px;
 }
 
 .grid-two{
@@ -153,7 +121,6 @@ body {
   padding: 20px;
 }
 
-/* BASE */
 .item {
   border-radius: 25px;
   overflow: hidden;
@@ -162,7 +129,6 @@ body {
   justify-content: center;
 }
 
-/* TITULOS */
 .title {
   background: #e7a8b0;
   color: transparent;
@@ -194,7 +160,6 @@ body {
   color: #3a0c10;
 }
 
-/* IMÁGENES */
 .image img {
   width: 100%;
   height: 100%;
@@ -229,4 +194,80 @@ body {
 .item6 {
   grid-column: 2 / 5;
   grid-row: 3;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr;   
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+
+    .item {
+        grid-column: auto !important; 
+        grid-row: auto !important;
+    }
+
+    .somos-grid {
+        grid-template-columns: 1fr;  
+        gap: 20px;
+    }
+
+    .photo-frame {
+        width: 100%;
+        height: auto;
+        transform: none;              
+        margin: 0 auto;
+    }
+
+    .photo-frame img {
+        width: 100%;
+        height: auto;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        width: 1200px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 200px);
+        gap: 30px;
+    }
+
+    .somos-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+
+    .photo-frame {
+        width: 600px;
+        height: 600px;
+        transform: rotate(-8deg);
+    }
+
+    .title {
+        font-size: 56px;
+    }
+
+    .section-title {
+        font-size: 72px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
 }
