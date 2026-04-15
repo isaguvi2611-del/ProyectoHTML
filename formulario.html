@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <div class="hoja">
+            <div class="top">
+                <span>Happy Paws</span>
+                <span>Animal's friendly</span>
+            </div>
+            
+            <h1>INGRESA TU INFORMACIÓN</h1>
+            <form>
+                
+                <label>NOMBRE</label>
+                <input type="text" placeholder="Ingrese un nombre">
+
+                <label>APELLIDO</label>
+                <input type="text" placeholder="Ingrese un apellido">
+
+                <label>TELÉFONO</label>
+                <input type="tel" class="telefono" placeholder="Ingrese un teléfono">
+
+                <label>CIUDAD</label>
+                <input type="text" class="lugar" placeholder="Ingrese un lugar">
+
+                <label>CORREO ELECTRÓNICO</label>
+                <input type="email" class="correo" placeholder="Ingrese un correo electrónico">
+
+                <label>MENSAJE</label>
+                <input type="text" class="mensaje" placeholder="Ingrese un mensaje">
+                
+                <h3>¿En qué podemos ayudarte?</h3>
+                <label class="opcion">
+                    <input type="radio" name="tipo"> Adoptar
+                </label>
+
+                <label class="opcion">
+                    <input type="radio" name="tipo"> Donar
+                </label>
+
+                <label class="opcion">
+                    <input type="radio" name="tipo"> Ser Voluntario
+                </label>
+
+                <label class="opcion">
+                    <input type="radio" name="tipo"> Información
+                </label>
+
+
+
+                <br>
+                <button onclick="window.location.href='gracias.html'">ENVIAR</button>
+            </form>
+
+            <div class="bottom">
+                <p>Happy Paws</p>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
