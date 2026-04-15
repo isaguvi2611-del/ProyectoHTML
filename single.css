@@ -1,8 +1,11 @@
+/* Estilos base */
 .card {
     width: 600px;
     margin: auto;
     background: #f5e6d3;
     padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .top {
@@ -15,56 +18,66 @@
     height: 200px;
     object-fit: cover;
     border-radius: 10%;
-
-    box-shadow:0 8px 18px rgba(0,0,0,0.08);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.08);
 }
 
 .info {
     width: 50%;
     background: #e6b08f;
-    padding: 15px;
-    border-radius: 10%;
-    border-radius:35px;
-    padding:28px 32px;
-    margin-bottom:18px;
-    overflow:hidden;
+    border-radius: 35px;
+    padding: 28px 32px;
+    margin-bottom: 18px;
+    overflow: hidden;
+    text-align: center;
 }
 
 .info h1 {
-    text-align: center;
     color: transparent;
     -webkit-text-stroke: 1px #45151B;
     font-family: 'Sekuya', serif;
     font-size: 30px;
+    margin: 0;
 }
 
 .info ul {
-    margin-top: 20px;
+    list-style-type: none; /* quita guiones */
+    padding: 0;
+    margin: 20px 0 0 0;
+    text-align: center;
+    color: #45151B;
+}
+
+.info li {
+    margin: 5px 0;
 }
 
 .box {
     margin-top: 10px;
     background: #e6b08f;
-    border-radius:35px;
-    padding:28px 32px;
-    margin-bottom:18px;
-    overflow:hidden;
+    border-radius: 35px;
+    padding: 28px 32px;
+    margin-bottom: 18px;
+    overflow: hidden;
+    text-align: center;
+    min-height: 120px; /* altura uniforme */
 }
 
-text h2 {
-    margin-bottom: 5px;
+.box h2 {
     font-family: 'Sekuya', serif;
     color: #45151B;
+    margin-bottom: 5px;
 }
 
-ul{
-    color: #45151B;
-}
-.box h2{
-    color: #45151B;
-}
 p {
     font-weight: bold;
     font-family: 'BJ Cree', sans-serif;
     color: #45151B;
 }
+
+/* 📱 Pantallas pequeñas (≤768px) */
+@media (max-width: 768px) {
+    .card {
+        width: 95%;
+        margin: 10px auto;
+        padding: 15px;
+        min
