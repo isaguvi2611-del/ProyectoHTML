@@ -75,8 +75,8 @@ body{
   margin: 0px 0px 0px 70px;
     background:#f5cdb8;
     padding: 12px;
-    height: 0px;
-    width: 0px;
+    height: 480px;
+    width: 480px;
     transform:rotate(-8deg);
 }
 

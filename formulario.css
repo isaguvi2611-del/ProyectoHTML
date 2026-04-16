@@ -22,7 +22,15 @@ body {
     position: relative;
     z-index: 2;
 }
-
+#menu{
+    margin-left: 25%;
+    padding: 20px;
+}
+#menu a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 250%;
+}
 .top {
     display: flex;
     justify-content: space-between;
@@ -37,7 +45,9 @@ h1 {
     margin: 30px 20px;
     font-family: "Segoe UI", sans-serif;
 }
-
+.requerido {
+    color: red;
+}
 
 form {
     display: flex;
@@ -55,7 +65,7 @@ input {
     margin-top: 5px;
     border-radius: 20px;
     background: #f3a7b5;
-    color: e9cdb4;
+    color: #e9cdb4;
     outline: none;
 }
 
@@ -72,8 +82,8 @@ input {
 }
 
 button {
-    background: #e4e4e4;
-    color: #e9cdb4;
+    background: #f3d08a;
+    color: #f3a7b5;
     padding: 10px;
     border: none;
     cursor: pointer;
@@ -82,7 +92,7 @@ button {
 .bottom {
     margin-top: 20px;
     font-size: 12px;
-    border-top: 1px dashed #dcdcdc;
+    border-top: 1px dashed #924f4f;
     padding-top: 10px;
 }
 
@@ -97,7 +107,7 @@ button {
 }
 #navegar {
     margin: 30px;
-    background-color: #41181d;
+    background-color: #f3a7b5;
     padding: 30px;
     text-align: center;
     margin-bottom: 20px;
