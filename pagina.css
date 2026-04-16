@@ -367,121 +367,195 @@ h3{
 .footer-item a:hover {
     text-decoration: underline;
 }
+@media (max-width: 414px){
 
-@media (max-width: 768px) {
-    #nav {
+    #nav{
         flex-direction: column;
-        padding: 10px 20px;
+        padding: 15px;
+        gap: 10px;
     }
 
-    #menu {
+    #menu{
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
+        font-size: 12px;
+    }
+    #menu h1{
+        font-size: 5px;
+    }
+    #logo{
+        width: 80px;
+    }
+
+    #carrusel{
+        width: 100%;
+    }
+
+    #imagenes img{
+        width: 90%;
+        height: 180px;
+        margin: 0 10px;
+    }
+
+    #animalitostitulo,
+    #testimonio{
+        font-size: 32px;
+        margin: 40px 0;
+    }
+
+    h2{
+        font-size: 22px;
+        margin: 80px 10px;
+    }
+
+    p, li, #parr{
         font-size: 14px;
     }
 
-    #carrusel {
-        width: 100%;
+    #section{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
     }
 
-    #imagenes img {
-        width: 100%;
-        height: auto;
-        margin: 10px 0;
+    #conejo, #hamster, #ave, #gato, #perro{
+        width: 240px;
+        height: 200px;
     }
 
-    #section {
+    #avesita, #perrito, #gatito, #hamstersito, #conejito{
+        width: 90px;
+        height: 90px;
+        top: -40px;
+    }
+
+    #slogan{
+        width: 95%;
+        height: 250px;
+        margin: 50px auto;
+    }
+
+    #ik{
         flex-direction: column;
         align-items: center;
     }
 
-    #section div {
+    #rojito, #rosa, #amarille{
         width: 90%;
         height: auto;
+        padding-bottom: 20px;
     }
 
-    #slogan {
-        width: 95%;
-        height: auto;
+    #img{
+        height: 120px;
     }
 
-    #ik {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-container {
+    .footer-container{
         flex-direction: column;
         text-align: center;
     }
 }
 
+@media (max-width: 540px){
 
-@media (min-width: 769px) {
-    #nav {
-        flex-direction: row;
+    #nav{
+        flex-direction: column;
+        padding: 20px;
     }
 
-    #menu {
-        flex-direction: row;
-        gap: 60px;
+    #menu{
+        gap: 20px;
+        font-size: 14px;
     }
 
-    #section {
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    #ik {
-        flex-direction: row;
-        justify-content: space-around;
-    }
-}
-@media (min-width: 1400px) {
-    body {
-        font-size: 20px; 
-    }
-
-    #nav {
-        padding: 20px 80px; 
-    }
-
-    #menu {
-        gap: 80px;
-        font-size: 18px;
-    }
-
-    #carrusel {
-        width: 85%; 
-        margin: auto;
-    }
-
-    #imagenes img {
+    #carrusel{
         width: 100%;
-        height: auto;
     }
 
-    #section {
-        justify-content: center;
-        gap: 40px;
+    #imagenes img{
+        width: 85%;
+        height: 220px;
     }
 
-    #section div {
-        width: 350px;
+    #animalitostitulo{
+        font-size: 45px;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    p, li{
+        font-size: 16px;
+    }
+
+    #section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #conejo, #hamster, #ave, #gato, #perro{
+        width: 260px;
+        height: 220px;
+    }
+
+    #slogan{
+        width: 90%;
         height: 300px;
     }
 
-    #slogan {
-        width: 75%;
-        height: 700px;
+    #ik{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1280px){
+
+    #nav{
+        padding: 20px 40px;
     }
 
-    #ik {
+    #menu{
         gap: 40px;
+        font-size: 16px;
     }
 
-    .footer-container {
-        justify-content: space-around;
+    #carrusel{
+        width: 100%;
+    }
+
+    #imagenes img{
+        width: 600px;
+        height: 350px;
+    }
+
+    #animalitostitulo{
+        font-size: 60px;
+    }
+
+    h2{
+        font-size: 32px;
+    }
+
+    p, li{
         font-size: 18px;
+    }
+
+    #section{
+        gap: 15px;
+    }
+
+    #conejo, #hamster, #ave, #gato, #perro{
+        width: 260px;
+        height: 220px;
+    }
+
+    #slogan{
+        width: 90%;
+        height: 450px;
+    }
+
+    #ik{
+        gap: 20px;
     }
 }
