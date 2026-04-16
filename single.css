@@ -1,10 +1,10 @@
 .card {
     width: 600px;
     margin: auto;
-    background: #f5e6d3;
     padding: 10px;
     box-sizing: border-box;
     text-align: center;
+    border-radius: 30px;
 }
 #navegar {
     background-color: #e6b08f;
@@ -15,7 +15,9 @@
     padding: 15px 60px;
     border-radius: 40px;
 }
-
+body{
+    background-color: rgb(237, 219, 197);
+}
 
 #navegar img {
     width: 100%;
@@ -163,4 +165,22 @@ p {
         padding: 40px;
         min-height: 150px;
     }
+}
+#adoptar0{
+    border-radius: 50px;
+    justify-content: center;
+    text-align: center;
+    background-color: #45151B;
+    margin-left: 30%;
+    margin-right: 30%;color: transparent;
+    -webkit-text-stroke: 1px #e6b08f;
+    font-family: 'Sekuya', serif;
+    font-size: 30px;
+    font-size: 50px;
+}
+#adoptar0:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: #45151B;
+    background-color: #e6b08f;
 }
