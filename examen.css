@@ -1,0 +1,293 @@
+#rude {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+    margin: 0 30%;
+    flex-direction: row;
+}
+
+#rude img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#cutie1 {
+    grid-column: span 2;
+    grid-row: span 2;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px #1b2640;
+}
+
+#cutie1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#cutie2 {
+    box-shadow: 0px 10px 10px #FBDFA2;
+}
+
+#cutie3 {
+    box-shadow: 0px 10px 10px #615b52;
+}
+
+#cutie4 {
+    box-shadow: 0px 10px 10px #914f4f;
+}
+
+#cutie5 {
+    box-shadow: 0px 10px 10px #914f4f;
+}
+
+#cutie6 {
+    box-shadow: 0px 10px 10px #487448;
+}
+
+#rude img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    ;
+}
+
+#rude h1 {
+    grid-column: span 3;
+    text-align: center;
+    color: #1b2640;
+    font-family: "Sekuya";
+}
+
+#part img:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+h3 {
+    background-color: #C74E51;
+    border-radius: 30px;
+    text-align: center;
+    color: #F6C0A0;
+    font-family: "Sekuya";
+}
+
+#limi {
+    margin: 150px 10px;
+    overflow: hidden;
+    height: 540px;
+}
+
+#titulomasc {
+    color: inherit;
+    text-decoration: none;
+    background-color: #C74E51;
+    color: #F6C0A0;
+    padding-top: 0%;
+    border-radius: 20px;
+    margin: 40px;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Sekuya";
+}
+
+#titulomasc:hover {
+    transform: scale(1.1);
+    transform: 0.5s;
+    background-color: #F6C0A0;
+    color: #C74E51;
+}
+
+#testimonio {
+    text-align: center;
+    font-size: 60px;
+    color: transparent;
+    font-family: "Sekuya";
+    -webkit-text-stroke: 1px #45151B;
+    
+}
+
+#rojito {
+    height: 450px;
+    width: 490px;
+    border-radius: 20px;
+    background-color: #F99256;
+}
+
+#sofia {
+    color: #C74E51;
+    margin: 60px 0px 0px 30px;
+    font-size: 35px;
+    font-family: "Sekuya";
+}
+
+#laura {
+    color: #45151B;
+    margin: 60px 0px 0px 30px;
+    font-size: 35px;
+    font-family: "Sekuya";
+}
+
+#camila {
+    color: #1f3a5f;
+    margin: 60px 0px 0px 30px;
+    font-size: 35px;
+    font-family: "Sekuya";
+}
+
+#flix {
+    display: flex;
+}
+
+#pip {
+    font-size: 20px;
+    text-align: left;
+}
+
+#rosa {
+    height: 450px;
+    width: 490px;
+    border-radius: 20px;
+    background-color: #FDBFCA;
+}
+
+#amarille {
+    height: 450px;
+    width: 490px;
+    border-radius: 20px;
+    background-color: #FBDE9C;
+}
+
+#ik {
+    display: flex;
+    gap: 30px;
+    
+}
+
+#img {
+    height: 175px;
+    border-radius: 50%;
+    margin: 15px;
+    justify-content: center;
+}
+
+#parr {
+    color: #664b4e;
+    font-size: 18px;
+    padding: 5px 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+@media(max-width: 414px)
+
+
+
+    #rude img {
+        width: 100%;
+        height: auto;
+    }
+
+    #cutie1 {
+        grid-column: span 1;
+        grid-row: span 1;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0px 10px 10px #1b2640;
+    }
+
+    #imagenes img {
+        width: 90%;
+        height: 180px;
+        margin: 0 10px;
+    }
+
+    #animalitostitulo,
+    #testimonio {
+        font-size: 32px;
+        margin: 40px 0;
+    }
+
+    h2 {
+        font-size: 22px;
+        margin: 80px 10px;
+    }
+
+    p,
+    li,
+    #parr {
+        font-size: 14px;
+    }
+
+    #section {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    #ik {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #rojito,
+    #rosa,
+    #amarille {
+        width: 90%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    #img {
+        height: 120px;
+    }
+
+@media (max-width: 540px) {
+
+    #rude {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p,
+    li {
+        font-size: 16px;
+    }
+
+
+    #ik {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1480px) {
+
+    h2 {
+        font-size: 32px;
+    }
+
+    p,
+    li {
+        font-size: 18px;
+    }
+
+    #section {
+        gap: 15px;
+    }
+
+
+
+    #slogan {
+        width: 90%;
+        height: 450px;
+    }
+
+    #ik {
+        gap: 20px;
+    }
+}

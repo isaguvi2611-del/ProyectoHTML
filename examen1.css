@@ -1,0 +1,390 @@
+#rude{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px; 
+    margin: 0 30%;
+    flex-direction: row;
+}
+#rude img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#cutie1{
+    grid-column: span 2;
+    grid-row: span 2;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px #1b2640;
+}
+
+#cutie1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+#cutie2{
+    box-shadow: 0px 10px 10px #FBDFA2;
+}
+#cutie3{
+    box-shadow: 0px 10px 10px #615b52;
+}
+#cutie4{
+    box-shadow: 0px 10px 10px #914f4f;
+}
+#cutie5{
+    box-shadow: 0px 10px 10px #914f4f;
+}
+#cutie6{
+    box-shadow: 0px 10px 10px #487448;
+}
+
+#rude img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    ;
+}
+#rude h1{
+    grid-column: span 3;
+    text-align: center;
+    color: #1b2640;
+    font-family: "Sekuya";
+}
+
+#mimimi, #mumumu{
+    background-color: #FBDFA2;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+#mememe{
+    background-color: #1b2640;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px ;
+    border-radius: 40px;
+}
+
+#mememe h2{
+    -webkit-text-stroke: 1px #e9cdb4;
+    color: transparent;
+    font-family: "Sekuya";
+}
+
+#mimimi h2, #mumumu h2{
+    -webkit-text-stroke: 1px #1b2640;
+    color: #e9cdb4;
+    font-family: "Sekuya";
+}
+
+#titulomasc{
+    margin-top: 20%;
+    color: inherit;
+    text-decoration: none;
+    background-color: #C74E51;
+    color: #F6C0A0;
+    padding-top: 0%;
+    border-radius: 20px;
+    margin: 40px ;
+    text-align: center;
+    font-size: 70px ;
+    font-family: "Sekuya";
+}
+#titulomasc:hover{
+    transform: scale(1.1);
+    transform: 0.5s;
+    background-color: #F6C0A0;
+    color: #C74E51;
+}
+#testimonio{
+    text-align: center;
+    font-size: 60px;
+    color: transparent;
+    font-family: "Sekuya";
+    -webkit-text-stroke: 1px #45151B;
+}
+
+#rojito{
+    height: 450px;
+    width: 490px;
+    border-radius: 20px;
+    background-color: #F99256;
+}
+#sofia{
+    color:#C74E51;
+    margin: 60px 0px 0px 30px;
+    font-size: 35px;
+    font-family: "Sekuya";
+}
+#laura{
+    color:#45151B;
+    margin: 60px 0px 0px 30px;
+    font-size: 35px;
+    font-family: "Sekuya";
+}
+#camila{
+    color:#1f3a5f;
+    margin: 60px 0px 0px 30px;
+    font-size: 35px;
+    font-family: "Sekuya";
+}
+#flix{
+    display: flex;
+}
+#pip{
+    font-size: 20px;
+    text-align: left;
+}
+#rosa{
+    height: 450px;
+    width: 490px;
+    border-radius: 20px;
+    background-color: #FDBFCA;
+}
+#amarille{
+    height: 450px;
+    width: 490px;
+    border-radius: 20px;
+    background-color: #FBDE9C;
+}
+#ik{
+    display: flex;
+    gap: 30px;
+}
+#img{
+    height: 175px;
+    border-radius: 50%;
+    margin: 15px;
+    justify-content: center;
+}
+#parr{
+    color: #664b4e;
+    font-size: 18px;
+    padding: 5px 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+@media (max-width: 768px) {
+    #rude{
+        flex-direction: column;
+    }
+    #rude img{
+        width: 100%;
+        height: auto;
+    }
+    #il {
+        flex-direction: column;
+        margin: 50px 20px;
+    }
+
+    #par {
+        height: auto;
+        width: 100%;
+        margin: 0;
+    }
+
+    #por {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    #volun {
+        font-size: 40px;
+    }
+
+    #rude {
+        grid-template-columns: repeat(1fr);
+        grid-template-columns: repeat(2fr, 2fr);
+        margin: 0 0 0 0;
+        padding: 10px;
+        align-items: center ;
+    }
+
+    #rude img {
+        width: 100%;
+        height: auto;
+    }
+    #cutie1{
+    grid-column: span 1;
+    grid-row: span 1;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px #1b2640;
+}
+}
+
+@media (min-width: 1400px) {
+    #il {
+        margin: 200px 100px;
+    }
+
+    #por {
+        padding: 60px 120px;
+        font-size: 24px;
+    }
+
+    #volun {
+        font-size: 80px;
+    }
+
+    #rude {
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0 20%;
+    }
+
+    #rude img {
+        height: 10%;
+        width: 10%;
+        margin: 10px 10px 10px 10px;
+    }
+}
+
+
+#part img:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+#part{
+    border-radius: 20px;
+    gap: 30px;
+    background-color: #F6C0A0;
+    padding: 30px;
+    width: 1800%;
+    animation: cambiar 15s linear infinite;
+    
+}
+
+
+#rude{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px; 
+    margin: 0 30%;
+    flex-direction: row;
+}
+#rude img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#cutie1{
+    grid-column: span 2;
+    grid-row: span 2;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px #1b2640;
+}
+
+#cutie1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+#cutie2{
+    box-shadow: 0px 10px 10px #FBDFA2;
+}
+#cutie3{
+    box-shadow: 0px 10px 10px #615b52;
+}
+#cutie4{
+    box-shadow: 0px 10px 10px #914f4f;
+}
+#cutie5{
+    box-shadow: 0px 10px 10px #914f4f;
+}
+#cutie6{
+    box-shadow: 0px 10px 10px #487448;
+}
+
+#rude img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    ;
+}
+#rude h1{
+    grid-column: span 3;
+    text-align: center;
+    color: #1b2640;
+    font-family: "Sekuya";
+}
+
+
+#testimonio{
+    text-align: center;
+    font-size: 60px;
+    color: transparent;
+    font-family: "Sekuya";
+    -webkit-text-stroke: 1px #45151B;
+}
+
+#rojito{
+    height: 450px;
+    width: 490px;
+    border-radius: 20px;
+    background-color: #F99256;
+}
+#sofia{
+    color:#C74E51;
+    margin: 60px 0px 0px 30px;
+    font-size: 35px;
+    font-family: "Sekuya";
+}
+#laura{
+    color:#45151B;
+    margin: 60px 0px 0px 30px;
+    font-size: 35px;
+    font-family: "Sekuya";
+}
+#camila{
+    color:#1f3a5f;
+    margin: 60px 0px 0px 30px;
+    font-size: 35px;
+    font-family: "Sekuya";
+}
+#flix{
+    display: flex;
+}
+#pip{
+    font-size: 20px;
+    text-align: left;
+}
+#rosa{
+    height: 450px;
+    width: 490px;
+    border-radius: 20px;
+    background-color: #FDBFCA;
+}
+#amarille{
+    height: 450px;
+    width: 490px;
+    border-radius: 20px;
+    background-color: #FBDE9C;
+}
+#ik{
+    display: flex;
+    gap: 30px;
+}
+#img{
+    height: 175px;
+    border-radius: 50%;
+    margin: 15px;
+    justify-content: center;
+}
+#parr{
+    color: #664b4e;
+    font-size: 18px;
+    padding: 5px 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+@media (max-width: 540px){
+    #rude{
+        grid-template-columns: repeat(2fr, 2fr);
+    }
+}
