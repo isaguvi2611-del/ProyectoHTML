@@ -6,6 +6,7 @@
     flex-direction: row;
 }
 
+
 #rude img {
     height: 100%;
     width: 100%;
@@ -180,9 +181,77 @@ h3 {
 }
 
 
-@media(max-width: 414px)
+@media(max-width: 414px){
+    #rojito {
+    height: 450px;
+    width: 490px;
+    border-radius: 20px;
+    background-color: #F99256;
+    }
 
+    #sofia {
+        color: #C74E51;
+        margin: 60px 0px 0px 30px;
+        font-size: 35px;
+        font-family: "Sekuya";
+    }
 
+    #laura {
+        color: #45151B;
+        margin: 60px 0px 0px 30px;
+        font-size: 35px;
+        font-family: "Sekuya";
+    }
+
+    #camila {
+        color: #1f3a5f;
+        margin: 60px 0px 0px 30px;
+        font-size: 35px;
+        font-family: "Sekuya";
+    }
+
+    #flix {
+        display: flex;
+    }
+
+    #pip {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    #rosa {
+        height: 450px;
+        width: 490px;
+        border-radius: 20px;
+        background-color: #FDBFCA;
+    }
+
+    #amarille {
+        height: 450px;
+        width: 490px;
+        border-radius: 20px;
+        background-color: #FBDE9C;
+    }
+
+    #ik {
+        display: flex;
+        gap: 30px;
+        
+    }
+
+    #img {
+        height: 175px;
+        border-radius: 50%;
+        margin: 15px;
+        justify-content: center;
+    }
+
+    #parr {
+        color: #664b4e;
+        font-size: 18px;
+        padding: 5px 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
 
     #rude img {
         width: 100%;
@@ -289,5 +358,62 @@ h3 {
 
     #ik {
         gap: 20px;
+    }
+}
+
+    #testimonio{
+        text-align: center;
+        font-size: 60px;
+        color: transparent;
+        font-family: "Sekuya";
+        -webkit-text-stroke: 1px #45151B;
+    }
+
+    #rojito{
+        height: 450px;
+        width: 490px;
+        border-radius: 20px;
+        background-color: #F99256;
+    }
+    #sofia{
+        color:#C74E51;
+        margin: 60px 0px 0px 30px;
+        font-size: 35px;
+        font-family: "Sekuya";
+    }
+    #laura{
+        color:#45151B;
+        margin: 60px 0px 0px 30px;
+        font-size: 35px;
+        font-family: "Sekuya";
+    }
+    #camila{
+        color:#1f3a5f;
+        margin: 60px 0px 0px 30px;
+        font-size: 35px;
+        font-family: "Sekuya";
+    }
+    #flix{
+        display: flex;
+    }
+    #pip{
+        font-size: 20px;
+        text-align: left;
+    }
+    #rosa{
+        height: 450px;
+        width: 490px;
+        border-radius: 20px;
+        background-color: #FDBFCA;
+    }
+    #amarille{
+        height: 450px;
+        width: 490px;
+        border-radius: 20px;
+        background-color: #FBDE9C;
+    }
+    #ik{
+        display: flex;
+        gap: 30px;
     }
 }
